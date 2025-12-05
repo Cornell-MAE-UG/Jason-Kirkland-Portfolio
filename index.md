@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Jason Kirkland
 ---
 
 ## About Me
@@ -9,8 +9,12 @@ title: <Your Name>
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am [your pitch paragraph about your passions, knowledge and interestst.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+My name is {{ site.name }}, and I am a Mechanical Engineering student at Cornell University and a student-athlete on the Division 1 football team. My academic interests include automotive, aerospace, robotics, product design, energy systems, and advanced manufacturing. I'm passionate about solving real-world problems through hands-on engineering and innovation.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Balancing academics with athletics has taught me discipline, leadership, and time management—skills that I bring to every team I’m part of. In high school, I worked jobs in customer service and safety, developing strong communication and responsibility. 
+
+My years of Boy Scouts experience taught me leadership, teamwork, organization, and service skills that will carry me through life. I earned the Life Count rank, which is the 2nd highest rank in Boy Scouts. 
+
+I’m currently exploring internship and research opportunities to apply my growing technical knowledge. I’m especially interested in industries like automotive, aerospace, robotics, and sustainability.
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
