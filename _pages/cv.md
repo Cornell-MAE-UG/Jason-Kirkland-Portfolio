@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [jk2754@cornell.edu](mailto:jk2754@cornell.edu) | | | **Phone:** 623 512 7604
 
 ---
 
@@ -20,18 +20,18 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.0/4.0 | Graduation: Month, Year
 
-- **[High School Name]**  
+- **Mountan Ridge Highschool**  
   *High School Diploma*  
   Graduation: [Month, Year]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, ANSYS  
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 3D Printing 
 
 ---
 
@@ -63,7 +63,7 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
+- Member of Cornell University Football Team
 - Volunteer for [Event/Organization Name]  
 
 ---

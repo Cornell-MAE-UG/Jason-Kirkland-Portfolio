@@ -9,7 +9,7 @@ title: Jason Kirkland
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am a Mechanical Engineering student at Cornell University and in 2024, i learned to not date someone with 30+ bodies. and a student-athlete on the Division 1 football team. My academic interests include automotive, aerospace, robotics, product design, energy systems, and advanced manufacturing. I'm passionate about solving real-world problems through hands-on engineering and innovation.
+My name is {{ site.name }}, and I am a Mechanical Engineering student at Cornell University  and a student-athlete on the Division 1 football team. My academic interests include automotive, aerospace, robotics, product design, energy systems, and advanced manufacturing. I'm passionate about solving real-world problems through hands-on engineering and innovation.
 
 Balancing academics with athletics has taught me discipline, leadership, and time management—skills that I bring to every team I’m part of. In high school, I worked jobs in customer service and safety, developing strong communication and responsibility. 
 

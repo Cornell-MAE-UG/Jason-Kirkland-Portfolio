@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jason Kirkland - Portfolio
+title: Jason Kirkland
 permalink: /projects/
 ---
 

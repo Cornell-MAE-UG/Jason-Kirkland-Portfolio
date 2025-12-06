@@ -1,6 +1,6 @@
 # Portfolio Instructions
 
-This is a template for you to start building your professional portfolio. It is also part of your journey at MAE and will be reviewed, as needed, by your instructor and the Undergraduate Program Office.
+This is a template for you to start building your professional portfolio. It is also part of your journey at MAE and will be reviewed, as needed, by your instructor and the Undergraduate Program Office. 
 
 Note that this is your personal copy of the portfolio template repository. It was created automatically when you accepted the Assignment through the GitHub Classroom link you were provided.
 
@@ -42,7 +42,7 @@ Finally, if you are an advanced user, you can simply clone your repository to yo
 Use the terminal to commit and push your files and run the local test server.
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/<jk2754>/<your-repo>.git
 cd <your-repo>
 ```
 
