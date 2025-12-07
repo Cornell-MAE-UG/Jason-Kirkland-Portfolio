@@ -59,10 +59,7 @@ The CAD model was imported into ANSYS Discovery for finite element analysis.
 
 The FEM model used:
 - **Clamped boundary condition** at the upper 0.4 inches of the drive head (per assignment spec)  
-- **Applied force** equivalent to 600 in-lbf torque:  
-  \[
-  F = \frac{T}{L}
-  \]
+- **Applied force** equivalent to 600 in-lbf torque which meant F = T/L
 
 ---
 
@@ -104,17 +101,15 @@ From the final refined mesh, ANSYS produced:
 ## **Torque Wrench Sensitivity (mV/V)**
 Using the FEM strain results and assuming a half-bridge configuration:
 
-\[
-\text{Output} = G_F \cdot \epsilon \cdot \left(\frac{\text{active gauges}}{4}\right)
-\]
+Output(in mv/V) = GF * ε * 1000 * 2.1
 
 Where:  
 - GF is the gauge factor of the selected strain gauges  
 - ε is FEM strain at gauge surface  
+- 2.1 is the assumed Bridge Factor
   
 **Final sensitivity:**  
 0.93 mV/V at 600 in-lbf
-
 
 This value is less than the required **1.0 mV/V** from the project details which will require further iteration in the future.
 
