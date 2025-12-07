@@ -19,7 +19,6 @@ Using Autodesk Fusion 360, I developed a complete CAD model of the wrench. The m
 ![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }}){: .inline-image-l style="width: 400px"}
 
 
-
 Key dimensions shown in the CAD drawing include:
 - Length from drive center to load point, **L = 16 in**
 - Handle width **h = 1 in**
@@ -77,7 +76,7 @@ The FEM results revealed the precise strain distribution around the narrowed gau
 ## **Maximum Principal Stress Contour**
 A principal stress contour plot was generated to verify the wrench remained within strength limits.  
 
-![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }}){: .inline-image-l style="width: 400px"}
+![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }}){: .inline-image-l style="width: 260px"}
 
 
 
