@@ -7,7 +7,7 @@ image: /assets/images/TITLE-wrench-image.png
 ---
 
 
-For our MAE 3270 final design project, we were tasked with creating a **3/8-inch drive instrumented torque wrench** capable of sustaining ±600 in-lbf while producing a measurable strain-gauge output of at least **1.0 mV/V**. The project combined analytical design, fatigue & fracture analysis, materials selection, CAD modeling, and FEM verification.
+For our MAE 3270 final design project, we were tasked with creating a **3/8-inch drive torque wrench** capable of sustaining ±600 in-lbf while producing a measurable strain-gauge output of at least **1.0 mV/V**. The project combined analytical design, fatigue & fracture analysis, materials selection, CAD modeling, and FEM verification.
 
 To begin, I performed full hand calculations based on beam theory to estimate bending stresses, strains at the gauge locations, fatigue safety factors, and crack-growth resistance. These calculations guided selection of the wrench geometry and helped refine parameters such as handle thickness **b**, width **h**, and the strain-gauge distance **c**. I automated this process using a MATLAB script to iterate dimensions and compare materials including steels, aluminums, and titanium alloys.
 
@@ -16,7 +16,7 @@ To begin, I performed full hand calculations based on beam theory to estimate be
 ## **CAD Model and Key Dimensions**
 Using Autodesk Fusion 360, I developed a complete CAD model of the wrench. The model includes all major design features such as the rectangular handle, strain-gauge flats, and the 3/8-inch square drive.  
 
-![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }}){: .inline-image-r style="width: 300px"}
+![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }})
 
 Key dimensions shown in the CAD drawing include:
 - Length from drive center to load point, **L = 16 in**
@@ -67,7 +67,7 @@ The FEM model used:
 ## **Normal Strain Contours at Gauge Locations**
 To compute the output voltage, I extracted normal strain in the longitudinal direction at the gauge mounting surfaces. 
 
-![Strain contour]({{ "/assets/images/torque-wrench-strain.png" | relative_url }}){: .inline-image-r style="width: 300px"}
+![Strain contour]({{ "/assets/images/torque-wrench-strain.png" | relative_url }})
 
 
 
@@ -79,8 +79,9 @@ The FEM results revealed the precise strain distribution around the narrowed gau
 ## **Maximum Principal Stress Contour**
 A principal stress contour plot was generated to verify the wrench remained within strength limits.  
 
-![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }}){: .inline-image-l style="width: 300px"}
+![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }})
 
+<!-- {: .inline-image-l style="width: 300px"} -->
 
 
 Peak stresses occurred near the transition between the drive head and handle. These stresses were compared directly with hand-calculation values to evaluate beam-theory accuracy.
