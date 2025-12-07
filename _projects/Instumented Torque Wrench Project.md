@@ -16,7 +16,7 @@ To begin, I performed full hand calculations based on beam theory to estimate be
 ## **CAD Model and Key Dimensions**
 Using Autodesk Fusion 360, I developed a complete CAD model of the wrench. The model includes all major design features such as the rectangular handle, strain-gauge flats, and the 3/8-inch square drive.  
 
-![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }}){: style="width: 400px"}
+![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }}){: style="width: 430px"}
 
 
 
@@ -52,7 +52,7 @@ These hand calculations proved this material allowed the wrench to survive fully
 ## **FEM Boundary Conditions and Applied Load**
 The CAD model was imported into ANSYS Discovery for finite element analysis.  
 
-![FEM load diagram]({{ "/assets/images/torque-wrench-loads.png" | relative_url }}){:  style="width: 400px"}
+![FEM load diagram]({{ "/assets/images/torque-wrench-loads.png" | relative_url }}){:  style="width: 430px"}
 
 
 
@@ -66,7 +66,7 @@ The FEM model used:
 ## **Normal Strain Contours at Gauge Locations**
 To compute the output voltage, I extracted normal strain in the longitudinal direction at the gauge mounting surfaces. 
 
-![Strain contour]({{ "/assets/images/torque-wrench-strain.png" | relative_url }}){: style="width: 400px"}
+![Strain contour]({{ "/assets/images/torque-wrench-strain.png" | relative_url }}){: style="width: 430"}
 
 
 
@@ -77,7 +77,7 @@ The FEM results revealed the precise strain distribution around the narrowed gau
 ## **Maximum Principal Stress Contour**
 A principal stress contour plot was generated to verify the wrench remained within strength limits.  
 
-![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }}){: style="width: 400px"}
+![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }}){: style="width: 430"}
 
 
 
