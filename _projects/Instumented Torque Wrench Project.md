@@ -16,7 +16,9 @@ To begin, I performed full hand calculations based on beam theory to estimate be
 ## **CAD Model and Key Dimensions**
 Using Autodesk Fusion 360, I developed a complete CAD model of the wrench. The model includes all major design features such as the rectangular handle, strain-gauge flats, and the 3/8-inch square drive.  
 
-![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }})
+![CAD model with dimensions]({{ "/assets/images/torque-wrench-dimensions.png" | relative_url }}){: .inline-image-l style="width: 400px"}
+
+
 
 Key dimensions shown in the CAD drawing include:
 - Length from drive center to load point, **L = 16 in**
@@ -33,9 +35,9 @@ These dimensions were driven directly by my analytical design script to balance 
 I selected **Aluminum 7075**, based on its strength, fatigue resistance, and fracture toughness, ensuring all three safety factors were met:
 
 **Values Found from Granta:**
-- **Young’s Modulus (E):** 10.5*10^6 psi  
-- **Fatigue Strength (10⁶ cycles):** 28*10^3 psi  
-- **Fracture Toughness (K_IC):** 24.3*10^3 psi√in  
+- **Young’s Modulus (E):** 10.5E6 psi  
+- **Fatigue Strength (10⁶ cycles):** 28E3 psi  
+- **Fracture Toughness (K_IC):** 24.3E3 psi√in  
 - **Poisson’s Ratio:** 0.33  
 
 These hand calculations proved this material allowed the wrench to survive fully reversed ±600 in-lbf loading with:
@@ -50,7 +52,7 @@ These hand calculations proved this material allowed the wrench to survive fully
 ## **FEM Boundary Conditions and Applied Load**
 The CAD model was imported into ANSYS Discovery for finite element analysis.  
 
-![FEM load diagram]({{ "/assets/images/torque-wrench-loads.png" | relative_url }}){: .inline-image-l style="width: 300px"}
+![FEM load diagram]({{ "/assets/images/torque-wrench-loads.png" | relative_url }}){: .inline-image-l style="width: 400px"}
 
 
 
@@ -67,8 +69,7 @@ The FEM model used:
 ## **Normal Strain Contours at Gauge Locations**
 To compute the output voltage, I extracted normal strain in the longitudinal direction at the gauge mounting surfaces. 
 
-![Strain contour]({{ "/assets/images/torque-wrench-strain.png" | relative_url }})
-
+![Strain contour]({{ "/assets/images/torque-wrench-strain.png" | relative_url }}){: .inline-image-l style="width: 400px"}
 
 
 
@@ -79,9 +80,8 @@ The FEM results revealed the precise strain distribution around the narrowed gau
 ## **Maximum Principal Stress Contour**
 A principal stress contour plot was generated to verify the wrench remained within strength limits.  
 
-![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }})
+![Principal stress contour]({{ "/assets/images/torque-wrench-stress.png" | relative_url }}) {: .inline-image-l style="width: 400px"}
 
-<!-- {: .inline-image-l style="width: 300px"} -->
 
 
 Peak stresses occurred near the transition between the drive head and handle. These stresses were compared directly with hand-calculation values to evaluate beam-theory accuracy.
@@ -109,11 +109,11 @@ Using the FEM strain results and assuming a half-bridge configuration:
 \]
 
 Where:  
-- \( G_F \) is the gauge factor of the selected strain gauges  
-- \( \epsilon \) is FEM strain at gauge surface  
+- GF is the gauge factor of the selected strain gauges  
+- ε is FEM strain at gauge surface  
   
 **Final sensitivity:**  
-`0.93 mV/V at 600 in-lbf`
+0.93 mV/V at 600 in-lbf
 
 
 This value is less than the required **1.0 mV/V** from the project details which will require further iteration in the future.
