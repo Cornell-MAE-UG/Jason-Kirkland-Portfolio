@@ -111,11 +111,10 @@ Using the FEM strain results and assuming a half-bridge configuration:
 Where:  
 - \( G_F \) is the gauge factor of the selected strain gauges  
 - \( \epsilon \) is FEM strain at gauge surface  
-
+  
 **Final sensitivity:**  
-\[
-\textbf{0.93 mV/V at 600 in-lbf}
-\]
+`0.93 mV/V at 600 in-lbf`
+
 
 This value is less than the required **1.0 mV/V** from the project details which will require further iteration in the future.
 
