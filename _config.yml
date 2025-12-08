@@ -14,6 +14,10 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Jason Kirkland
 description              : Jason Kirkland - Projects and CV 
 baseurl                  : "/Jason-Kirkland-Portfolio" # Set this to your repo name 
+markdown                 : kramdown
+kramdown                 :
+  math_engine: mathjax
+
 
 # Theme and Style
 theme: jekyll-theme-minimal
