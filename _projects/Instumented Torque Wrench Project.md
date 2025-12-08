@@ -26,7 +26,7 @@ Key dimensions shown in the CAD drawing include:
 - Handle thickness **b = 0.5 in**
 - Strain-gauge distance **c = 1 in**
 - Handle Length **W = 8 in**
-- Equivilant Force **P = M/L** **=37.5lbf** (red)
+- Equivalent Force **P = M/L** **=37.5lbf** (red)
 - Yellow = **Boundary condition of zero displacement**
 
 These dimensions were driven directly by my analytical design script to balance stress constraints and sensitivity requirements.
