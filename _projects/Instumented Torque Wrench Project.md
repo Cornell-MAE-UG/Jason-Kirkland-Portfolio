@@ -134,10 +134,12 @@ This project demonstrated full integration of materials engineering, classical m
 
 This is how I solved the hand calculations for this problem:
 
-<div style="max-height: 300px; overflow-y: scroll;">
+<div style="max-height: 300px; overflow-y: auto; background:#1e1e1e; padding:10px; border-radius:6px;">
 
+<pre><code class="language-matlab">
 ```Matlab
-    %% Torque Wrench Hand-Calc Model
+
+  %% Torque Wrench Hand-Calc Model
   % All units: in, lbf, psi
 
   clc; clear; close all;
@@ -243,7 +245,7 @@ This is how I solved the hand calculations for this problem:
 
   fprintf('====================================================\n\n');
 
-  </div> ```
+  </div> 
 
 
 
