@@ -3,9 +3,10 @@ layout: project
 title: Torque Wrench Design
 description: Advanced FEM Project
 technologies: [Autodesk Fusion, ANSYS, MATLAB]
-image: /assets/images/TITLE-wrench-image.png
+image: /assets/images/TITLE-wrench-image
 ---
 
+![TITLE-wrench-image]({{ "/assets/images/TITLE-wrench-image.png" | relative_url }}){: style="width:260px; float:right; margin:0 0 10px 15px;"}
 
 For our MAE 3270 final design project, we were tasked with creating a **3/8-inch drive torque wrench** capable of sustaining ±600 in-lbf while producing a measurable strain-gauge output of at least **1.0 mV/V**. The project combined analytical design, fatigue & fracture analysis, materials selection, CAD modeling, and FEM verification.
 
