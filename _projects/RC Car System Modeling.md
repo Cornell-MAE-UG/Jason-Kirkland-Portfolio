@@ -13,15 +13,21 @@ image: /assets/images/stuntcar.jpg
 
 
 - Develops a physics-based model for a small RC car by combining **vehicle longitudinal dynamics** with **DC motor electrical dynamics**.
+
 - Starts from Newton’s 2nd law:
   - With drag, grade, and rolling resistance neglected on flat ground,
+
     $$
     M_{eq}\,\dot{v} = F_t
     $$
+
   - Equivalent mass:
+
     $$
     M_{eq} = \frac{J_w + mr^2 + i_g^2 J_e}{r^2}
     $$
+
+
 - Uses the **no-slip condition** (\(\omega = v/r\)) and wheel torque balance to relate motor torque to traction force at the tires.
 - Models the DC motor with:
   - Electrical: \(L\frac{di}{dt} + Ri = V - K_e\omega\)
