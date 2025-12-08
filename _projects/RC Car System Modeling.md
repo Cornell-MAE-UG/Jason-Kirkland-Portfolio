@@ -7,7 +7,10 @@ image: /assets/images/stuntcar.jpg
 ---
 
 
-# RC Car System Model – ODEs, State-Space, and TFs (Summary)
+# RC Car System Model – ODEs, State-Space, and TFs 
+
+![RC Car Motor Dynamics Free Body Diagram]({{ "/assets/images/systemsfbd.png" | relative_url }}){: style="width: 550px"}
+
 
 - Develops a physics-based model for a small RC car by combining **vehicle longitudinal dynamics** with **DC motor electrical dynamics**.
 - Starts from Newton’s 2nd law:
