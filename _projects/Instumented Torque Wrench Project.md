@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Design
 description: Advanced FEM Project
 technologies: [Autodesk Fusion, ANSYS, MATLAB]
-image: /assets/images/TITLE-wrench-image
+image: /assets/images/TITLE-wrench-image.png
 ---
 
 ![TITLE-wrench-image]({{ "/assets/images/TITLE-wrench-image.png" | relative_url }}){: style="width:260px; float:right; margin:0 0 10px 15px;"}
