@@ -132,3 +132,6 @@ The design ensured there was sufficient flat surface for gauge bonding and appro
 ---
 
 This project demonstrated full integration of materials engineering, classical mechanics, CAD design, strain-gauge instrumentation, and finite-element analysis—while requiring careful iteration to balance sensitivity with structural reliability.
+
+
+[Open full Report: *MAE-3270-Wrench-Analysis*]({{ "/assets/MAE-3270-Wrench-Analysis" | relative_url }})
