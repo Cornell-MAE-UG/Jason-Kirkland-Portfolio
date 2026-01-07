@@ -8,7 +8,7 @@ image: assets/images/wrench_head.png
 
 ## Project Overview
 
-![Multitool whole]({{ "/assets/images/assets/images/wrench_whole.png" | relative_url }}){: style="width: 550px"}
+![Multitool whole]({{ "/assets/images/assets/wrench_whole.png" | relative_url }}){: style="width: 550px"}
 
 This project focused on designing a compact, space-efficient multitool wrench intended to reduce the number of individual tools required for common mechanical tasks. The tool integrates multiple wrench geometries into a single modular body while maintaining usability, structural integrity, and manufacturability.
 
