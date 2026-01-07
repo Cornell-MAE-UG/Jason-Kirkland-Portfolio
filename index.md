@@ -17,4 +17,4 @@ My years of Boy Scouts experience taught me leadership, teamwork, organization, 
 
 I’m currently exploring internship and research opportunities to apply my growing technical knowledge. I’m especially interested in industries like automotive, aerospace, robotics, and sustainability.
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/Resume/" | relative_url }}">Resume</a>.
+Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/resume/" | relative_url }}">Resume</a>.
