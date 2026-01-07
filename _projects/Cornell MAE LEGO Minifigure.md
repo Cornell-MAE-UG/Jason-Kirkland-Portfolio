@@ -9,7 +9,7 @@ image: assets/images/MiniFigure_Front.png
 ## Project Overview
 
 ![Minifigure front]({{ "/assets/images/MiniFigure_Front.png" | relative_url }}){: style="width: 550px"}
-![Minifigure back]({{ "/assets/images/MiniFigure_Back.png" | relative_url }}){: style="width: 550px"}
+![Minifigure back]({{ "/assets/images/Minifigure_Back.png" | relative_url }}){: style="width: 550px"}
 
 This project is a fully parametric, dimension accurate LEGO style minifigure modeled entirely in Autodesk Fusion 360. The objective was to replicate the geometry, articulation, and assembly logic of an injection molded consumer product while integrating custom Cornell Mechanical & Aerospace Engineering branding.
 
