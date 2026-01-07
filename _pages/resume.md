@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 ## Resume
 
-[Download my Resume]({{ "/assets/Jason Kirkland Resume 2.pdf" | relative_url }}) in PDF format.
+[Take a look at my official resume]({{ "/assets/Jason Kirkland Resume 2.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [jk2754@cornell.edu](mailto:jk2754@cornell.edu) | | | **Phone:** 623 512 7604
@@ -16,6 +16,23 @@ permalink: /resume/
 
 #### Objective
 Motivated and disciplined Mechanical Engineering student and Division I NCAA athlete seeking a Summer 2026 engineering internship. Experienced in balancing a demanding academic workload with 20+ hours per week of football commitments. Brings strong teamwork, leadership, and time-management skills to hands-on engineering environments.
+
+---
+
+#### Projects
+**Multitool Design Project — Cornell Mechanical Design**  
+Designed and prototyped a compact multitool aimed at maximizing drawer space efficiency.  
+  - Led CAD modeling in Fusion 360 and iterative design refinement  
+  - Utilized 3D printing to validate fit, ergonomics, and functional performance  
+  - Contributed to manufacturability decisions and design reviews  
+  - Presented final prototype and design rationale to course staff
+ 
+**Instrumented Torque Wrench Design Project — Cornell MAE 3270**
+Designed and analyzed a 3/8-inch drive instrumented torque wrench rated for ±600 in-lbf, integrating hand calculations, materials selection, CAD, and FEM verification.
+  - Performed analytical stress, strain, fatigue, and fracture calculations to size geometry and evaluate candidate materials
+  - Developed a MATLAB/Python script to iterate design parameters and meet strength, crack-growth, and fatigue safety factors
+  - Created the CAD model in Fusion 360 and refined the design to improve strain-gauge sensitivity and stress distribution
+  - Imported the model into ANSYS, conducted FEM analysis with mesh refinement, and compared results to hand-calculation predictions
 
 ---
 
@@ -41,24 +58,6 @@ Motivated and disciplined Mechanical Engineering student and Division I NCAA ath
 - **Engineering Knowledge:** Fluid mechanics, material science, mechanical design principles  
 - **Soft Skills:** Leadership, time management, work ethic, product design, teamwork
 
-
----
-
-#### Projects
-**Multitool Design Project — Cornell Mechanical Design**  
-Designed and prototyped a compact multitool aimed at maximizing drawer space efficiency.  
-  - Led CAD modeling in Fusion 360 and iterative design refinement  
-  - Utilized 3D printing to validate fit, ergonomics, and functional performance  
-  - Contributed to manufacturability decisions and design reviews  
-  - Presented final prototype and design rationale to course staff
- 
-**Instrumented Torque Wrench Design Project — Cornell MAE 3270**
-Designed and analyzed a 3/8-inch drive instrumented torque wrench rated for ±600 in-lbf, integrating hand calculations, materials selection, CAD, and FEM verification.
-  - Performed analytical stress, strain, fatigue, and fracture calculations to size geometry and evaluate candidate materials
-  - Developed a MATLAB/Python script to iterate design parameters and meet strength, crack-growth, and fatigue safety factors
-  - Created the CAD model in Fusion 360 and refined the design to improve strain-gauge sensitivity and stress distribution
-  - Imported the model into ANSYS, conducted FEM analysis with mesh refinement, and compared results to hand-calculation predictions
-
 ---
 
 #### Leadership & Experience
@@ -78,7 +77,6 @@ Designed and analyzed a 3/8-inch drive instrumented torque wrench rated for ±60
 
 - **Crew Member — Harkins Movie Theatre, Peoria, AZ** *(Summer 2021)*  
   Worked in concessions, box office, and guest services in a fast-paced environment.
-
 
 ---
 
