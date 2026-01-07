@@ -6,7 +6,7 @@ title: Jason Kirkland
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/Jason_fullbody.JPG" | relative_url }}){: class="profile-image"}
 
  
 My name is {{ site.name }}, and I am a Mechanical Engineering student at Cornell University  and a student-athlete on the Division 1 football team. My academic interests include automotive, aerospace, robotics, product design, energy systems, and advanced manufacturing. I'm passionate about solving real-world problems through hands-on engineering and innovation.
