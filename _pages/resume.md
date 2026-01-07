@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Jason Kirkland - CV
-permalink: /cv/
+title: Jason Kirkland - Resume
+permalink: /resume/
 ---
-## Curriculum Vitae
+## Resume
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my Resume]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [jk2754@cornell.edu](mailto:jk2754@cornell.edu) | | | **Phone:** 623 512 7604
