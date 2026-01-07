@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 ## Resume
 
-[Download my Resume]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my Resume]({{ "/assets/Jason Kirkland Resume 2.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [jk2754@cornell.edu](mailto:jk2754@cornell.edu) | | | **Phone:** 623 512 7604
