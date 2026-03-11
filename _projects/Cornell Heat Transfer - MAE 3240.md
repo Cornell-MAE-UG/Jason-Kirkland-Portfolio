@@ -3,7 +3,7 @@ layout: project
 title: Heat Transfer Fin Analysis
 description: Reflection on Problem Set 5 – Fin Heat Transfer and Transient Heating
 technologies: [Heat Transfer, Fin Analysis, Thermal Resistance Networks]
-image: /assets/images/pinfin
+image: /assets/images/pinfin.png
 ---
 
 # Heat Transfer Fin Analysis – Problem Set Reflection
